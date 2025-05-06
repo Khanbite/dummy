@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  #taskmanager {
+    margin-top: 20px;
+  }
+  
+  .task {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .important {
+    background-color: #ffe5e5;
+    border-left: 4px solid red;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
